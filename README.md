@@ -58,7 +58,7 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
   <img src="images/image7.png" width="400">
 </p>
 
-<h3><strong>Creating a Bootable USB Drive</strong></h3>
+<h3><strong>Creating a Bootable USB Flash Drive</strong></h3>
 
 Rufus is a tool used to format your USB flash drive into a bootable drive with an operating system on it. Once Ubuntu has been installed using the USB flash drive, you will no longer need it anymore and can use Ubuntu without the USB flash drive plugged in.
 
