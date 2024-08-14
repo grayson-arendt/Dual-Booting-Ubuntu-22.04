@@ -1,9 +1,9 @@
-<h3>Required Items:</h3>
+**<h3>Required Items:</h3>**
 
 - USB flash drive with at least 4 GB of storage (this drive will get erased, so make sure nothing important is on it)
 - Laptop or computer running Windows 11
 
-<h3>Summary</h3>
+**<h3>Summary</h3>**
 
 Dual booting is the process of installing another operating system alongside your computer's original operating system, such as Windows or MacOS. You will have access to both operating systems and it will not erase anything on your device if done correctly.
 
@@ -13,13 +13,13 @@ It does not hurt to keep a backup of your data on something like an external har
 
 [Backing up to external hard drive (optional)](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)
 
-<h3>Turning off BitLocker/Device Encryption</h3>
+**<h3>Turning off BitLocker/Device Encryption</h3>**
 
 Not every Windows 11 device has BitLocker, but the majority of them do have it enabled. If you can't find anything in the search bar for either "Device Encryption" or "Manage BitLocker" your device most likely does not have it.
 
 **Some versions of Windows 11 put it under the "Device Encryption" setting instead, while others just have it labelled as "BitLocker" in the control panel, so if one of the instruction sets doesn't work, try the other one.**
 
-<h4>Turn off Device Encryption</h4>
+**<h4>Turn off Device Encryption</h4>**
 
 1. Use the Windows search bar to search "Device encryption settings" and select "Open" 
 
@@ -45,7 +45,7 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
   <img src="images/image4.png" width="400">
 </p>
 
-<h4>Turn off BitLocker</h4>
+**<h4>Turn off BitLocker</h4>**
 
 1. Use the Windows search bar to search "Manage BitLocker" and select "Open" 
 
@@ -65,7 +65,7 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
   <img src="images/image7.png" width="400">
 </p>
 
-<h3>Creating a Bootable USB Drive</h3>
+**<h3>Creating a Bootable USB Drive</h3>**
 
 Rufus is a tool used to format your USB flash drive into a bootable drive with an operating system on it. Once Ubuntu has been installed using the USB flash drive, you will no longer need it anymore and can use Ubuntu without the USB flash drive plugged in.
 
@@ -122,7 +122,7 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
 
 12. Wait for Rufus to finish creating the bootable USB drive
 
-<h3>Installing Ubuntu 22.04</h3>
+**<h3>Installing Ubuntu 22.04</h3>**
 
 1. Plug in your newly formatted USB drive
 2. Use the Windows search bar to search "change advanced startup options" then press "Open"
