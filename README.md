@@ -30,7 +30,7 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
 </p>
 
 <ol start="2">
-<li>Select the option to "Off"</li>
+<li> Switch the toggle to "Off"</li>
 </ol>
 
 <p align="center">
