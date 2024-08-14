@@ -72,7 +72,7 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
 </p>
 
 <ol start="3">
-<li>Wait for the drive to finish decrypting (it will take a while), it will look like this once it's finished</li>
+<li>Wait for the drive to finish decrypting (it will take a while). It will look like this once it's finished</li>
 </ol>
 
 <p align="center">
