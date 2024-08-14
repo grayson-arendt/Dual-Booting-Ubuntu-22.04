@@ -63,8 +63,8 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
 Rufus is a tool used to format your USB flash drive into a bootable drive with an operating system on it. Once Ubuntu has been installed using the USB flash drive, you will no longer need it anymore and can use Ubuntu without the USB flash drive plugged in.
 
 <ol>
-<li>Install Ubuntu 22.04 ISO [here](https://releases.ubuntu.com/jammy/ubuntu-22.04.4-desktop-amd64.iso)</li>
-<li>Install Rufus [here](https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe)</li>
+<li><a href="https://releases.ubuntu.com/jammy/ubuntu-22.04.4-desktop-amd64.iso" target="_blank">Install Ubuntu 22.04 ISO here</a></li>
+<li><a href="https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe" target="_blank">Install Rufus here</a></li>
 <li>Using the Windows search bar, search for "rufus-4.5.exe" and press "Run as administrator"</li>
 </ol>
 
@@ -161,5 +161,5 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
 </p>
 
 <ol start="19">
-<li>You have now successfully finished dual booting your device. I recommend heading to the [ROS 2 Humble installation page](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html). Note: this installation is done on Ubuntu, so you'll have to boot Ubuntu up. All the commands on there will be ran on the Terminal (keyboard shortcut to open it is Ctrl + Alt + T). Copy and paste in the commands line by line then press enter after each one, do not select multiple lines at once as this will not work.</li>
+<li>You have now successfully finished dual booting your device. I recommend heading to the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation page </a>. Note: this installation is done on Ubuntu, so you'll have to boot Ubuntu up. All the commands on there will be ran on the Terminal (keyboard shortcut to open it is Ctrl + Alt + T). Copy and paste in the commands line by line then press enter after each one, do not select multiple lines at once as this will not work.</li>
 </ol>
