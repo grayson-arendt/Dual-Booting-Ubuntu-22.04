@@ -190,7 +190,7 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
 17. Following the prompt on the screen, remove the flash drive and press "Enter"
 
 <p align="center">
-  <img src="images/image25.png" width="500">
+  <img src="images/image25.png">
 </p>
  
 1. After the restart, this GRUB menu will now appear on your device any time it is turned on. Use the arrow keys + Enter to select which operating system you want to boot into. 
