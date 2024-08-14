@@ -1,7 +1,6 @@
 title: Dual Booting Ubuntu 22.04
 plugins:
   - jekyll-relative-links
-  - jekyll-feed
   - jekyll-remote-theme
 relative_links:
   enabled: true
@@ -12,4 +11,5 @@ remote_theme: jekyll/minima
 minima:
   skin: dark
 header_pages: ['']
+author: Grayson Arendt
 
