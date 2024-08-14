@@ -37,7 +37,7 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
   <img src="images/image2.png" width="400">
 </p>
 
-<ol start="2">
+<ol start="3">
 <li>Press "Turn off" to confirm</li>
 </ol>
 
