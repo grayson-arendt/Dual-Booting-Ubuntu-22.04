@@ -11,7 +11,7 @@ This tutorial is for Windows 11 and will not work on MacOS, since dual booting U
 
 It does not hurt to keep a backup of your data on something like an external hard drive if you are worried about losing anything, but I have personally never ran into that problem.
 
-[Backing up to external hard drive (optional)](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)
+[Backing up to an external hard drive (optional)](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)
 
 <h3><strong>Turning off BitLocker/Device Encryption</strong></h3>
 
