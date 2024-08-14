@@ -1,3 +1,4 @@
+title: Dual Booting Ubuntu 22.04
 plugins:
   - jekyll-relative-links
   - jekyll-feed
@@ -13,4 +14,3 @@ minima:
 header_pages: ['']
 author:
   name: Grayson Arendt
-title: Dual Booting Ubuntu 22.04
