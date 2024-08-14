@@ -1,6 +1,4 @@
-Sure! I've reformatted the remaining images to use the HTML syntax like the ones you have already done. Here is the updated markdown:
 
-```markdown
 ### Required Items:
 
 - USB flash drive with at least 4 GB of storage (this drive will get erased, so make sure nothing important is on it)
