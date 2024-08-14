@@ -1,4 +1,4 @@
-Required Items:
+### Required Items:
 
 - USB flash drive with at least 4 GB of storage (this drive will get erased, so make sure nothing important is on it)
 - Laptop or computer running Windows 11

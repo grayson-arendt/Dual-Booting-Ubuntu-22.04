@@ -11,4 +11,6 @@ remote_theme: jekyll/minima
 minima:
   skin: dark
 header_pages: ['']
-
+author:
+  name: Grayson Arendt
+title: Dual Booting Ubuntu 22.04
