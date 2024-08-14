@@ -1,27 +1,25 @@
-
-
-#### Required Items:
+<h3>Required Items:</h3>
 
 - USB flash drive with at least 4 GB of storage (this drive will get erased, so make sure nothing important is on it)
 - Laptop or computer running Windows 11
 
-### Summary
+<h3>Summary</h3>
 
 Dual booting is the process of installing another operating system alongside your computer's original operating system, such as Windows or MacOS. You will have access to both operating systems and it will not erase anything on your device if done correctly.
 
 This tutorial is for Windows 11 and will not work on MacOS, since dual booting Ubuntu with MacOS is not nearly as universal and some MacBooks have many security features that make it hard to do so. If you'd like to dual boot on a MacBook, let me know and I can help.
 
-It does not hurt to keep a backup of your data on something like an external hard drive if you are worried about losing anything, but I have personally never ran into that problem. 
+It does not hurt to keep a backup of your data on something like an external hard drive if you are worried about losing anything, but I have personally never ran into that problem.
 
 [Backing up to external hard drive (optional)](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)
 
-### Turning off BitLocker/Device Encryption
+<h3>Turning off BitLocker/Device Encryption</h3>
 
 Not every Windows 11 device has BitLocker, but the majority of them do have it enabled. If you can't find anything in the search bar for either "Device Encryption" or "Manage BitLocker" your device most likely does not have it.
 
 **Some versions of Windows 11 put it under the "Device Encryption" setting instead, while others just have it labelled as "BitLocker" in the control panel, so if one of the instruction sets doesn't work, try the other one.**
 
-#### Turn off Device Encryption
+<h4>Turn off Device Encryption</h4>
 
 1. Use the Windows search bar to search "Device encryption settings" and select "Open" 
 
@@ -47,7 +45,7 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
   <img src="images/image4.png" width="400">
 </p>
 
-#### Turn off BitLocker 
+<h4>Turn off BitLocker</h4>
 
 1. Use the Windows search bar to search "Manage BitLocker" and select "Open" 
 
@@ -67,12 +65,12 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
   <img src="images/image7.png" width="400">
 </p>
 
-### Creating a Bootable USB Drive
+<h3>Creating a Bootable USB Drive</h3>
 
 Rufus is a tool used to format your USB flash drive into a bootable drive with an operating system on it. Once Ubuntu has been installed using the USB flash drive, you will no longer need it anymore and can use Ubuntu without the USB flash drive plugged in.
 
 1. Install Ubuntu 22.04 ISO [here](https://releases.ubuntu.com/jammy/ubuntu-22.04.4-desktop-amd64.iso)
-2. Install Rufus [here](https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe) 
+2. Install Rufus [here](https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe)
 3. Using the Windows search bar, search for "rufus-4.5.exe" and press "Run as administrator"
 
 <p align="center">
@@ -124,7 +122,7 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
 
 12. Wait for Rufus to finish creating the bootable USB drive
 
-### Installing Ubuntu 22.04
+<h3>Installing Ubuntu 22.04</h3>
 
 1. Plug in your newly formatted USB drive
 2. Use the Windows search bar to search "change advanced startup options" then press "Open"
@@ -193,7 +191,7 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
   <img src="images/image25.png">
 </p>
  
-1. After the restart, this GRUB menu will now appear on your device any time it is turned on. Use the arrow keys + Enter to select which operating system you want to boot into. 
+18. After the restart, this GRUB menu will now appear on your device any time it is turned on. Use the arrow keys + Enter to select which operating system you want to boot into. 
 
 <p align="center">
   <img src="images/image26.png" width="500">
