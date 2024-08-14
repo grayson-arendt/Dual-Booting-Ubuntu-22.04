@@ -31,7 +31,21 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
 
 <ol start="2">
 <li>Select the option to "Off"</li>
+</ol>
+
+<p align="center">
+  <img src="images/image2.png" width="400">
+</p>
+
+<ol start="2">
 <li>Press "Turn off" to confirm</li>
+</ol>
+
+<p align="center">
+  <img src="images/image3.png" width="400">
+</p>
+
+<ol start="4">
 <li>Wait for decryption to finish</li>
 </ol>
 
@@ -51,6 +65,13 @@ Not every Windows 11 device has BitLocker, but the majority of them do have it e
 
 <ol start="2">
 <li>Press "Turn off BitLocker" under "Operating system drive"</li>
+</ol>
+
+<p align="center">
+  <img src="images/image6.png" width="400">
+</p>
+
+<ol start="3">
 <li>Wait for the drive to finish decrypting (it will take a while), it will look like this once it's finished</li>
 </ol>
 
@@ -83,6 +104,13 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
 
 <ol start="6">
 <li>Press the "SELECT" button under "Boot selection"</li>
+</ol>
+
+<p align="center">
+  <img src="images/image10.png" width="400">
+</p>
+
+<ol start="7">
 <li>Search your Downloads folder for a file named "ubuntu-22.04.4-desktop-amd64" then press "Open"</li>
 </ol>
 
@@ -92,9 +120,37 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
 
 <ol start="8">
 <li>Double check that the correct drive and file are selected and then press "START"</li>
+</ol>
+
+<p align="center">
+  <img src="images/image12.png" width="400">
+</p>
+
+<ol start="9">
 <li>Press "OK" for writing in ISO Image mode</li>
+</ol>
+
+<p align="center">
+  <img src="images/image13.png" width="400">
+</p>
+
+<ol start="10">
 <li>Press "OK" to erase the flash drive (make sure nothing important is on this drive, if there is then press cancel and select a different USB drive)</li>
+</ol>
+
+<p align="center">
+  <img src="images/image14.png" width="400">
+</p>
+
+<ol start="11">
 <li>This may or may not pop up, but if it does, press "OK"</li>
+</ol>
+
+<p align="center">
+  <img src="images/image15.png" width="400">
+</p>
+
+<ol start="12">
 <li>Wait for Rufus to finish creating the bootable USB drive</li>
 </ol>
 
@@ -111,6 +167,13 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
  
 <ol start="3">
 <li>Select "Restart now" under "Advanced startup"</li>
+</ol>
+
+<p align="center">
+  <img src="images/image17.png" width="400">
+</p>
+
+<ol start="4">
 <li>Once the advanced startup menu comes up, select "Use a device" (you can use mouse or arrow keys + Enter)</li>
 </ol>
 
@@ -120,7 +183,21 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
 
 <ol start="5">
 <li>Select the USB flash drive in the list, it may be named differently than "Linpus lite"</li>
+</ol>
+
+<p align="center">
+  <img src="images/image19.png" width="500">
+</p>
+
+<ol start="6">
 <li>Press enter with "Ubuntu" highlighted in the menu</li>
+</ol>
+
+<p align="center">
+  <img src="images/image20.png" width="500">
+</p>
+
+<ol start="7">
 <li>Select "Install Ubuntu"</li>
 </ol>
 
@@ -140,7 +217,22 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
 
 <ol start="11">
 <li>Make sure "Install Ubuntu alongside Windows Boot Manager" is selected and press "Continue"</li>
+</ol>
+
+<p align="center">
+  <img src="images/image23.png" width="500">
+</p>
+
+
+<ol start="12">
 <li>Drag the divider to allocate the amount of storage space wanted for Ubuntu then press "Install Now" (personally I do half, but I would say it is good to have at least a quarter of your hard drive space allocated to Ubuntu)</li>
+</ol>
+
+<p align="center">
+  <img src="images/image24.png" width="500">
+</p>
+
+<ol start="13">
 <li>Press "Continue" to confirm</li>
 <li>Choose your time zone (Chicago) on the next page and press "Continue"</li>
 <li>Type in your desired username and password, then press "Continue"</li>
