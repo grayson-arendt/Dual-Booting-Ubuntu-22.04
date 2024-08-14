@@ -153,7 +153,7 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
 </p>
  
 <ol start="18">
-<li>After the restart, this GRUB menu will now appear on your device any time it is turned on. Use the arrow keys + Enter to select which operating system you want to boot into.</li>
+<li>After the restart, this GRUB menu will now appear on your device any time it is turned on. Use the arrow keys + Enter to select which operating system you want to boot into</li>
 </ol>
 
 <p align="center">
@@ -161,5 +161,5 @@ Rufus is a tool used to format your USB flash drive into a bootable drive with a
 </p>
 
 <ol start="19">
-<li>You have now successfully finished dual booting your device. I recommend heading to the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation page</a>. Note: this installation is done on Ubuntu, so you'll have to boot Ubuntu up. All the commands on there will be ran on the Terminal (keyboard shortcut to open it is Ctrl + Alt + T). Copy and paste in the commands line by line then press enter after each one, do not select multiple lines at once as this will not work.</li>
+<li>You have now successfully finished dual booting your device. I recommend heading to the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation page</a>. Note: this installation is done on Ubuntu, so you'll have to boot Ubuntu up. All the commands on there will be ran on the Terminal (keyboard shortcut to open it is Ctrl + Alt + T). Copy and paste in the commands line by line then press enter after each one, do not select multiple lines at once as this will not work</li>
 </ol>
