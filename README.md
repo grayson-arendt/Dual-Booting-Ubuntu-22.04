@@ -17,12 +17,12 @@ Although I've never experienced data loss from dual booting, it's always good pr
 
 While Secure Boot and Fast Boot may not prevent Ubuntu from installing on all devices, it may for some of them. Therefore, it is advised to disable both of them to prevent any issues during the dual booting process.
 
-To disable Secure Boot and Fast Boot, you will need to go into the BIOS settings of your device. The BIOS for each device can vary, so this will not be a universal guide and you may have to search up details about your device online to help you find the exact menus.
+To disable Secure Boot and Fast Boot, you will need to go into the BIOS settings of your device. The BIOS for each device can vary, so this will not be a universal guide and you may have to search up details about your device online to help you find the exact settings.
 
 **If your device does not have Secure Boot or Fast Boot, then you will not need to change anything and can continue with the guide.**
 
 1. Restart your device.
-2. When your device is starting to turn on, repeatedly press the key for your device's brand. Commonly used keys are:
+2. When your device is starting to turn on, repeatedly press the designated key for your device's manufacturer. Commonly used keys are:
 
 - Acer: F2 or DEL
 - ASUS: F2 or DEL
@@ -33,7 +33,7 @@ To disable Secure Boot and Fast Boot, you will need to go into the BIOS settings
 
 3. Use the arrow keys to navigate the BIOS menu and search for the options for "Secure Boot" and "Fast Boot." "Secure Boot" may be under the sections labelled such as "System Configuration" or "Boot," while "Fast Boot" could either be under the "Advanced" section or be in the same section as "Secure Boot." If you do not see the options anywhere, your device doesn't have them.
 
-4. Highlight the "Secure Boot" or "Fast Boot" option and press "Enter" if it is already enabled by default in order to disable it. If the option to highlight "Enabled" or "Disabled" pops up, highlight "Disabled" and press "Enter." 
+4. Highlight the "Secure Boot" and/or "Fast Boot" option and press "Enter" if it is already enabled by default in order to disable it. If the option to highlight "Enabled" or "Disabled" pops up in a small menu, highlight "Disabled" and press "Enter" to select it as the option. 
 
 5. Navigate to the "Exit" section and make sure to save your changes before leaving the BIOS menu.
 
