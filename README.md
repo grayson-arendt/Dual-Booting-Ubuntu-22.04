@@ -208,7 +208,7 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 <ol start="8">
 <li>Continue with the default settings on the next few pages.</li>
 <li>When prompted, select your Wi-Fi network and enter the password.</li>
-<li>Continue until you reach this page:</li>
+<li>Ensure "Install Ubuntu alongside Windows Boot Manager" is selected, then click "Continue."</li>
 </ol>
 
 <p align="center">
@@ -216,16 +216,15 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 </p>
 
 <ol start="11">
-<li>Ensure "Install Ubuntu alongside Windows Boot Manager" is selected, then click "Continue."</li>
+<li>Drag the divider to allocate space for Ubuntu. I recommend at least a quarter of your hard drive space. Then, click "Install Now."</li>
 </ol>
 
 <p align="center">
   <img src="images/image23.png" width="500">
 </p>
 
-
 <ol start="12">
-<li>Drag the divider to allocate space for Ubuntu. I recommend at least a quarter of your hard drive space. Then, click "Install Now."</li>
+<li>Press "Continue" to confirm</li>
 </ol>
 
 <p align="center">
@@ -233,7 +232,6 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 </p>
 
 <ol start="13">
-<li>Press "Continue" to confirm</li>
 <li>Choose your time zone (Chicago) and click "Continue."</li>
 <li>Enter your desired username and password, then click "Continue."</li>
 <li>Wait for Ubuntu to install, then click "Restart Now."</li>
@@ -244,7 +242,7 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
   <img src="images/image25.png">
 </p>
  
-<ol start="18">
+<ol start="17">
 <li>After restarting, the GRUB menu will appear each time you start your device. Use the arrow keys + "Enter" to choose which operating system to boot.</li>
 </ol>
 
@@ -252,6 +250,6 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
   <img src="images/image26.png" width="500">
 </p>
 
-<ol start="19">
+<ol start="18">
 <li>Congratulations! You've successfully dual-booted your device. I recommend following the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation guide</a> next. This installation will be done on Ubuntu, so boot into Ubuntu first. Copy and paste the commands in the terminal (shortcut to open is Ctrl + Alt + T) one line at a time.</li>
 </ol>
