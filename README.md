@@ -174,7 +174,7 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 </p>
 
 <ol start="4">
-<li>Once in the advanced startup menu, choose "Use a device." You can use your mouse or arrow keys + Enter.</li>
+<li>Once in the advanced startup menu, choose "Use a device." You can use your mouse or arrow keys + "Enter."</li>
 </ol>
 
 <p align="center">
@@ -224,7 +224,7 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 </p>
 
 <ol start="12">
-<li>Press "Continue" to confirm</li>
+<li>Press "Continue" to confirm.</li>
 </ol>
 
 <p align="center">
