@@ -1,6 +1,6 @@
 <h3><strong>Required Items:</strong></h3>
 
-- A USB flash drive with at least 4 GB of storage (Note: This drive will be erased, so back up any important data).
+- A USB flash drive with at least 4 GB of storage (note: this drive will be erased, so back up any important data).
 - A laptop or computer running Windows 11.
 
 <h3><strong>Summary</strong></h3>
