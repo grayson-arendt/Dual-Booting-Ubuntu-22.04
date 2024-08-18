@@ -38,7 +38,7 @@ Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "
 </p>
 
 <ol start="2">
-<li>Press "Turn off" to confirm</li>
+<li>Press "Turn off" to confirm.</li>
 </ol>
 
 <p align="center">
@@ -72,7 +72,7 @@ Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "
 </p>
 
 <ol start="3">
-<li>Wait for the drive to finish decrypting (it will take a while), it will look like this once it's finished</li>
+<li>Wait for the drive to finish decrypting (it will take a while), it will look like this once it's finished.</li>
 </ol>
 
 <p align="center">
