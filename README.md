@@ -31,7 +31,7 @@ To disable Secure Boot and Fast Boot, you will need to go into the BIOS settings
 - Lenovo: F2 or Fn + F2
 - MSI: DEL
 
-3. Use the arrow keys to navigate the BIOS menu and search for the options for "Secure Boot" and "Fast Boot." "Secure Boot" may be under the sections labelled such as "System Configuration" or "Boot," while "Fast Boot" could either be under the "Advanced" section or be in the same section as "Secure Boot." If you do not see the options anywhere, your device doesn't have them.
+3. Use the arrow keys to navigate the BIOS menu and search for the options for "Secure Boot" and "Fast Boot." "Secure Boot" may be under the sections labeled such as "System Configuration" or "Boot," while "Fast Boot" could either be under the "Advanced" section or be in the same section as "Secure Boot." If you do not see the options anywhere, your device doesn't have them.
 
 4. Highlight the "Secure Boot" and/or "Fast Boot" option and press "Enter" if it is already enabled by default in order to disable it. If the option to highlight "Enabled" or "Disabled" pops up in a small menu, highlight "Disabled" and press "Enter" to select it as the option. 
 
