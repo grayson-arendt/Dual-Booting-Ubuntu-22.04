@@ -11,7 +11,7 @@ This guide is tailored for Windows 11 and won't work on macOS due to different c
 
 Although I've never experienced data loss from dual booting, it's always good practice to back up your data on an external hard drive.
 
-[Backing up to external hard drive (optional)](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)
+[Backing up to an external hard drive (optional)](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)
 
 <h3><strong>Turning off BitLocker/Device Encryption</strong></h3>
 
@@ -30,7 +30,7 @@ Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "
 </p>
 
 <ol start="2">
-<li>Turn off the "Device encryption" toggle.</li>
+<li>Select the option to "Off"</li>
 </ol>
 
 <p align="center">
@@ -38,7 +38,7 @@ Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "
 </p>
 
 <ol start="2">
-<li>Confirm by pressing "Turn off."</li>
+<li>Press "Turn off" to confirm</li>
 </ol>
 
 <p align="center">
@@ -72,7 +72,7 @@ Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "
 </p>
 
 <ol start="3">
-<li>Wait for the drive to decrypt fully. It might take some time. You'll see this screen when it's done:</li>
+<li>Wait for the drive to finish decrypting (it will take a while), it will look like this once it's finished</li>
 </ol>
 
 <p align="center">
