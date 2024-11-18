@@ -1,4 +1,4 @@
-<h2><strong>Required Items:</strong></h2>
+<h2><strong>Required Items</strong></h2>
 
 - A USB flash drive with at least 4 GB of storage (note: this drive will be erased, so back up any important data).
 - A laptop or computer running Windows 11.
@@ -7,7 +7,7 @@
 
 Dual booting allows you to install another operating system alongside your existing one, such as adding Ubuntu to your Windows 11 device. This gives you access to both systems without erasing your current operating system—provided it's done correctly.
 
-This guide is tailored for Windows 11 and won't work on macOS due to different compatibility issues and security features on MacBooks. If you want to dual boot on a MacBook, I can help with that separately.
+This guide is tailored for Windows 11 and won't work on macOS due to different compatibility issues and security features on MacBooks. If you want to dual boot on an older MacBook that has a Intel CPU, I can help with that separately.
 
 Although I've never experienced data loss from dual booting, it's always good practice to back up your data on an external hard drive.
 
