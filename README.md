@@ -13,13 +13,13 @@ Although I've never experienced data loss from dual booting, it's always good pr
 
 [Backing up to an external hard drive (optional)](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)
 
-<h4><strong>Turning off BitLocker/Device Encryption</strong></h3>
+<h3><strong>Turning off BitLocker/Device Encryption</strong></h3>
 
 Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "Device Encryption" or "Manage BitLocker" in your search, your device likely doesn't have it.
 
 **Note: Different Windows 11 versions may list encryption settings under "Device Encryption" or "BitLocker." Try both if needed.**
 
-<h5><strong>Turn off Device Encryption</strong></h4>
+<h4><strong>Turn off Device Encryption</strong></h4>
 
 <ol>
 <li>Use the Windows search bar to search "Device encryption settings" and select "Open."</li>
@@ -80,7 +80,7 @@ Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "
 </p>
 
 
-<h4><strong>Turning off Secure Boot and/or Fast Boot</strong></h3>
+<h3><strong>Turning off Secure Boot and/or Fast Boot</strong></h3>
 
 While Secure Boot and Fast Boot may not prevent Ubuntu from installing on all devices, it may for some of them. Therefore, it is advised to disable both of them to prevent any issues during the dual booting process.
 
@@ -291,4 +291,3 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 <ol start="18">
 <li>Congratulations! You've successfully dual-booted your device. I recommend following the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation guide</a> next. This installation will be done on Ubuntu, so boot into Ubuntu first.
 </ol>
-
