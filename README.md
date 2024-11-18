@@ -13,7 +13,74 @@ Although I've never experienced data loss from dual booting, it's always good pr
 
 [Backing up to an external hard drive (optional)](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)
 
-<h3><strong>Turning off Secure Boot and Fast Boot</strong></h3>
+<h4><strong>Turning off BitLocker/Device Encryption</strong></h3>
+
+Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "Device Encryption" or "Manage BitLocker" in your search, your device likely doesn't have it.
+
+**Note: Different Windows 11 versions may list encryption settings under "Device Encryption" or "BitLocker." Try both if needed.**
+
+<h5><strong>Turn off Device Encryption</strong></h4>
+
+<ol>
+<li>Use the Windows search bar to search "Device encryption settings" and select "Open."</li>
+</ol>
+
+<p align="center">
+  <img src="images/image1.png" width="400">
+</p>
+
+<ol start="2">
+<li>Select the option to "Off"</li>
+</ol>
+
+<p align="center">
+  <img src="images/image2.png" width="400">
+</p>
+
+<ol start="2">
+<li>Press "Turn off" to confirm.</li>
+</ol>
+
+<p align="center">
+  <img src="images/image3.png" width="400">
+</p>
+
+<ol start="4">
+<li>Wait for the decryption process to complete.</li>
+</ol>
+
+<p align="center">
+  <img src="images/image4.png" width="400">
+</p>
+
+<h5><strong>Turn off BitLocker</strong></h4>
+
+<ol>
+<li>Search for "Manage BitLocker" in the Windows search bar and click "Open."</li>
+</ol>
+
+<p align="center">
+  <img src="images/image5.png" width="400">
+</p>
+
+<ol start="2">
+<li>Click "Turn off BitLocker" under the "Operating system drive" section.</li>
+</ol>
+
+<p align="center">
+  <img src="images/image6.png" width="400">
+</p>
+
+<ol start="3">
+<li>Wait for the drive to finish decrypting (it will take a while), it will look like this once it's finished.</li>
+</ol>
+
+<p align="center">
+  <img src="images/image7.png" width="400">
+</p>
+
+
+<h4><strong>Turning off Secure Boot and/or Fast Boot</strong></h3>
 
 While Secure Boot and Fast Boot may not prevent Ubuntu from installing on all devices, it may for some of them. Therefore, it is advised to disable both of them to prevent any issues during the dual booting process.
 
@@ -49,71 +116,6 @@ To disable Secure Boot and Fast Boot, you will need to go into the BIOS settings
 </li>
 </ol>
 
-<h3><strong>Turning off BitLocker/Device Encryption</strong></h3>
-
-Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "Device Encryption" or "Manage BitLocker" in your search, your device likely doesn't have it.
-
-**Note: Different Windows 11 versions may list encryption settings under "Device Encryption" or "BitLocker." Try both if needed.**
-
-<h4><strong>Turn off Device Encryption</strong></h4>
-
-<ol>
-<li>Use the Windows search bar to search "Device encryption settings" and select "Open."</li>
-</ol>
-
-<p align="center">
-  <img src="images/image1.png" width="400">
-</p>
-
-<ol start="2">
-<li>Select the option to "Off"</li>
-</ol>
-
-<p align="center">
-  <img src="images/image2.png" width="400">
-</p>
-
-<ol start="2">
-<li>Press "Turn off" to confirm.</li>
-</ol>
-
-<p align="center">
-  <img src="images/image3.png" width="400">
-</p>
-
-<ol start="4">
-<li>Wait for the decryption process to complete.</li>
-</ol>
-
-<p align="center">
-  <img src="images/image4.png" width="400">
-</p>
-
-<h4><strong>Turn off BitLocker</strong></h4>
-
-<ol>
-<li>Search for "Manage BitLocker" in the Windows search bar and click "Open."</li>
-</ol>
-
-<p align="center">
-  <img src="images/image5.png" width="400">
-</p>
-
-<ol start="2">
-<li>Click "Turn off BitLocker" under the "Operating system drive" section.</li>
-</ol>
-
-<p align="center">
-  <img src="images/image6.png" width="400">
-</p>
-
-<ol start="3">
-<li>Wait for the drive to finish decrypting (it will take a while), it will look like this once it's finished.</li>
-</ol>
-
-<p align="center">
-  <img src="images/image7.png" width="400">
-</p>
 
 <h3><strong>Creating a Bootable USB Flash Drive</strong></h3>
 
@@ -287,5 +289,6 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 </p>
 
 <ol start="18">
-<li>Congratulations! You've successfully dual-booted your device. I recommend following the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation guide</a> next. This installation will be done on Ubuntu, so boot into Ubuntu first. Copy and paste the commands in the terminal (shortcut to open is Ctrl + Alt + T) one line at a time.</li>
+<li>Congratulations! You've successfully dual-booted your device. I recommend following the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation guide</a> next. This installation will be done on Ubuntu, so boot into Ubuntu first.
 </ol>
+
