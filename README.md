@@ -1,25 +1,25 @@
-<h3><strong>Required Items:</strong></h3>
+<h2><strong>Required Items:</strong></h2>
 
 - A USB flash drive with at least 4 GB of storage (note: this drive will be erased, so back up any important data).
 - A laptop or computer running Windows 11.
 
-<h3><strong>Summary</strong></h3>
+<h2><strong>Summary</strong></h2>
 
 Dual booting allows you to install another operating system alongside your existing one, such as adding Ubuntu to your Windows 11 device. This gives you access to both systems without erasing your current operating system—provided it's done correctly.
 
-This guide is tailored for Windows 11 and won't work on macOS due to different compatibility issues and security features on MacBooks. If you want to dual boot on an older MacBook that has an Intel CPU, I can help with that separately.
+This guide is tailored for Windows 11 and won't work on macOS due to different compatibility issues and security features on MacBooks. If you want to dual boot on a MacBook, I can help with that separately.
 
 Although I've never experienced data loss from dual booting, it's always good practice to back up your data on an external hard drive.
 
 [Backing up to an external hard drive (optional)](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)
 
-<h3><strong>Turning off BitLocker/Device Encryption</strong></h3>
+<h2><strong>Turning off BitLocker/Device Encryption</strong></h2>
 
 Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "Device Encryption" or "Manage BitLocker" in your search, your device likely doesn't have it.
 
 **Note: Different Windows 11 versions may list encryption settings under "Device Encryption" or "BitLocker." Try both if needed.**
 
-<h4><strong>Turn off Device Encryption</strong></h4>
+<h3><strong>Turn off Device Encryption</strong></h3>
 
 <ol>
 <li>Use the Windows search bar to search "Device encryption settings" and select "Open."</li>
@@ -53,7 +53,7 @@ Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "
   <img src="images/image4.png" width="400">
 </p>
 
-<h4><strong>Turn off BitLocker</strong></h4>
+<h3><strong>Turn off BitLocker</strong></h3>
 
 <ol>
 <li>Search for "Manage BitLocker" in the Windows search bar and click "Open."</li>
@@ -80,7 +80,7 @@ Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "
 </p>
 
 
-<h3><strong>Turning off Secure Boot and/or Fast Boot</strong></h3>
+<h2><strong>Turning off Secure Boot and/or Fast Boot</strong></h2>
 
 While Secure Boot and Fast Boot may not prevent Ubuntu from installing on all devices, it may for some of them. Therefore, it is advised to disable both of them to prevent any issues during the dual booting process.
 
@@ -117,7 +117,7 @@ To disable Secure Boot and Fast Boot, you will need to go into the BIOS settings
 </ol>
 
 
-<h3><strong>Creating a Bootable USB Flash Drive</strong></h3>
+<h2><strong>Creating a Bootable USB Flash Drive</strong></h2>
 
 Rufus is a tool that converts your USB flash drive into a bootable drive with an operating system. After installing Ubuntu from the USB, you won’t need the drive plugged in to use Ubuntu.
 
@@ -192,7 +192,7 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 <li>Wait for Rufus to finish creating the bootable USB drive.</li>
 </ol>
 
-<h3><strong>Installing Ubuntu 22.04</strong></h3>
+<h2><strong>Installing Ubuntu 22.04</strong></h2>
 
 <ol>
 <li>Plug in the USB drive you just created.</li>
@@ -289,8 +289,5 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 </p>
 
 <ol start="18">
-<li>Congratulations! You've successfully dual-booted your device. I recommend following the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation guide</a> next. This installation will be done on Ubuntu, so boot into Ubuntu first.
-</ol>
-
 <li>Congratulations! You've successfully dual-booted your device. I recommend following the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation guide</a> next. This installation will be done on Ubuntu, so boot into Ubuntu first.
 </ol>
