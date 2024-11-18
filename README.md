@@ -7,7 +7,7 @@
 
 Dual booting allows you to install another operating system alongside your existing one, such as adding Ubuntu to your Windows 11 device. This gives you access to both systems without erasing your current operating system—provided it's done correctly.
 
-This guide is tailored for Windows 11 and won't work on macOS due to different compatibility issues and security features on MacBooks. If you want to dual boot on a MacBook, I can help with that separately.
+This guide is tailored for Windows 11 and won't work on macOS due to different compatibility issues and security features on MacBooks. If you want to dual boot on an older MacBook that has an Intel CPU, I can help with that separately.
 
 Although I've never experienced data loss from dual booting, it's always good practice to back up your data on an external hard drive.
 
@@ -53,7 +53,7 @@ Most Windows 11 devices have BitLocker enabled, but not all. If you can't find "
   <img src="images/image4.png" width="400">
 </p>
 
-<h5><strong>Turn off BitLocker</strong></h4>
+<h4><strong>Turn off BitLocker</strong></h4>
 
 <ol>
 <li>Search for "Manage BitLocker" in the Windows search bar and click "Open."</li>
@@ -289,5 +289,8 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 </p>
 
 <ol start="18">
+<li>Congratulations! You've successfully dual-booted your device. I recommend following the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation guide</a> next. This installation will be done on Ubuntu, so boot into Ubuntu first.
+</ol>
+
 <li>Congratulations! You've successfully dual-booted your device. I recommend following the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation guide</a> next. This installation will be done on Ubuntu, so boot into Ubuntu first.
 </ol>
