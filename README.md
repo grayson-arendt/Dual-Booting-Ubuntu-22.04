@@ -270,7 +270,7 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 </p>
 
 <ol start="13">
-<li>Choose your time zone (Chicago) and click "Continue."</li>
+<li>Choose your time zone and click "Continue."</li>
 <li>Enter your desired username and password, then click "Continue."</li>
 <li>Wait for Ubuntu to install, then click "Restart Now."</li>
 <li>Remove the USB flash drive when prompted and press "Enter."</li>
@@ -290,4 +290,3 @@ Rufus is a tool that converts your USB flash drive into a bootable drive with an
 
 <ol start="18">
 <li>Congratulations! You've successfully dual-booted your device. I recommend following the <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble installation guide</a> next. This installation will be done on Ubuntu, so boot into Ubuntu first.
-</ol>
